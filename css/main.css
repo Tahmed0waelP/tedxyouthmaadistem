@@ -27,7 +27,7 @@ section h2.title {
 }
 
 section.first {
-  background-image: url("../../photos/first_section/slideshow_1.png");
+  background-image: url("../photos/first_section/slideshow_1.png");
   display: flex;
   flex-direction: row;
   align-items: center;

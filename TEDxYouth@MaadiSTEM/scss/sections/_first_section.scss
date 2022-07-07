@@ -1,0 +1,39 @@
+section.first {
+  background-image: url("../../photos/first_section/slideshow_1.png");
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  i {
+    color: #ffffff;
+    background: rgba(37, 127, 179, 0.5);
+    font-size: 25px;
+    padding: 1%;
+    &:hover {
+      background: rgba(37, 127, 179, 1);
+    }
+  }
+  .content {
+    text-align: center;
+    line-height: 70px;
+    h4 {
+      color: #ffffff;
+      font-size: 30px;
+      font-weight: 1;
+      text-transform: uppercase;
+    }
+    h2 {
+      color: #ffffff;
+      font-size: 60px;
+    }
+    a {
+      background: #ffffff;
+      text-decoration: none;
+      color: #000000;
+      padding: 2% 5%;
+      &:hover {
+        opacity: 75%;
+      }
+    }
+  }
+}

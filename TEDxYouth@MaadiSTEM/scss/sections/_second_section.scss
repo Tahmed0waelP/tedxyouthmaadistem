@@ -1,0 +1,40 @@
+section.second {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .image {
+    img {
+      height: 60vh;
+    }
+  }
+  .content {
+    margin-inline-start: 3vw;
+    // line-height: 40px;
+    h2.title {
+      font-size: 20px;
+      font-weight: 100;
+      color: #009cff;
+    }
+    span {
+      font-size: 50px;
+      font-weight: 700;
+      color: #21395d;
+      span {
+        color: #009cff;
+      }
+    }
+    p {
+      font-size: 20px;
+      margin-bottom: 5vh;
+    }
+    a {
+      background: #009cff;
+      text-decoration: none;
+      color: #ffffff;
+      padding: 2% 5%;
+      &:hover {
+        opacity: 75%;
+      }
+    }
+  }
+}
